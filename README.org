@@ -1,0 +1,9 @@
+* Image to build wheel files for Caffe2 with ONNX backend
+If you ever faced similar error when using caffe2:
+#+BEGIN_SRC bash
+$ python3 -c 'import caffe2.python.onnx.backend'
+WARNING:root:This caffe2 python run does not have GPU support. Will run in CPU only mode.
+Segmentation fault
+#+END_SRC
+
+This image will probably help you
